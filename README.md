@@ -34,34 +34,6 @@ Ensure you have the following installed:
 - **Gazebo**  
 - **Python 3.8+**  
 
-### Installation  
-
-1. Clone the repository:  
-   ```bash  
-   git clone <repository-link>  
-   cd <repository-folder>
-
-2. Build the workspace:
-    ```bash
-    colcon build
-
-3. Source the setup file:
-   ```bash
-   source install/setup.bash  
-
-## 🚀 Running the Simulation  
-
-1. Launch the simulation:  
-   ```bash
-   ros2 launch <package-name> <launch-file>
-## 📂 Repository Structure  
-
-- **`src/`**: Contains ROS2 nodes for perception, control, and simulation.  
-- **`models/`**: Custom Gazebo models for the simulation.  
-- **`config/`**: Configuration files for parameters and settings.  
-- **`launch/`**: ROS2 launch files to start the simulation.  
-
----
 
 ## 🤝 Contributions  
 
